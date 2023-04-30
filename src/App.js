@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 
 
 
+
 function App () {
   return  <>
     <NavBar/>
@@ -14,3 +15,4 @@ function App () {
 }
 
 export default App;
+
