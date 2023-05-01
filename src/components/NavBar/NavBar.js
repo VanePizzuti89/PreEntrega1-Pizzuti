@@ -12,10 +12,7 @@ const Header = () => {
             <NavLink to="/category/1" className="header__link link">Categoria 1</NavLink>
             <NavLink to="/category/2" className="header__link link">Categoria 2</NavLink>
             <NavLink to="/cart" className="header__link link"><CartWidget/></NavLink>
-                <button>Remeras</button>
-                <button>Tazas</button>
-                <button>Gorras</button>
-
+                
             </nav>
             
             
