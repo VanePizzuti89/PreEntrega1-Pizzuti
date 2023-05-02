@@ -1,7 +1,7 @@
 import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount'
 
-const ItemDetail = ({ id, name, img, category, price, desciption, stock}) => {
+const ItemDetail = ({ id, name, img, category, price, description, stock}) => {
     return(
         <article className='CardItem'>
             <header className='Header'>
