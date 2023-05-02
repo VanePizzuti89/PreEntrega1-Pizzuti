@@ -1,5 +1,7 @@
+import "./NavBar.css"
 import { NavLink } from "react-router-dom"
 import CartWidget from "../CartWidget/CartWidget"
+
 
 const Header = () => {
     return (
