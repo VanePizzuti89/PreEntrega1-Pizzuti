@@ -4,7 +4,7 @@ const products = [
         name: 'Remera Capitán América',
         price: 2000,
         category: "remeras",
-        img: <img className="rem-capamer" src="/images/rem_captamerica.jpg" alt="remera capitan america"></img>,
+        img: <img className="rem-capamer" src="/images/rem-captamerica.jpg" alt="remera capitan america"/>,
         stock: 28,
         description: 'Descripcion de Remera Capitán América'
 

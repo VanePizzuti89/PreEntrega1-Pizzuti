@@ -9,8 +9,9 @@ const Header = () => {
             </NavLink>
             
             <nav className="header__nav">
-            <NavLink to="/category/1" className="header__link link">Categoria 1</NavLink>
-            <NavLink to="/category/2" className="header__link link">Categoria 2</NavLink>
+            <NavLink to="/category/1" className="header__link link">Remeras</NavLink>
+            <NavLink to="/category/2" className="header__link link">Tazas</NavLink>
+            <NavLink to="/category/3" className="header__link link">Gorras</NavLink>
             <NavLink to="/cart" className="header__link link"><CartWidget/></NavLink>
                 
             </nav>
