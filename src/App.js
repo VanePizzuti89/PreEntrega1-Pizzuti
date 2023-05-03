@@ -1,8 +1,8 @@
 import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import ItemCount from "./components/ItemCount/ItemCount"
+//import ItemCount from "./components/ItemCount/ItemCount"
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
-import { BrowserRouter, Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 
 
