@@ -3,7 +3,7 @@ const products = [
         id: '1',
         name: 'Remera Capitán América',
         price: 2000,
-        category: "remeras",
+        category: "Remeras",
         img: 'https://i.postimg.cc/DZqpTCQR/rem-captamerica.jpg',
         stock: 28,
         description: 'Remera Capitán América color azul'
@@ -13,7 +13,7 @@ const products = [
         id: '2',
         name: 'Taza Messi',
         price: 1800,
-        category: "tazas",
+        category: "Tazas",
         img: 'https://i.postimg.cc/LXRBzmf0/taza-messi.jpg',
         stock: 20,
         description: 'Taza Que miras bobo?'
@@ -22,7 +22,7 @@ const products = [
         id: '3',
         name: 'Gorra Star Wars',
         price: 2000,
-        category: "gorras",
+        category: "Gorras",
         img: 'https://i.postimg.cc/VLTqKqnt/gorra-starwars.jpg',
         stock: 25,
         description: 'Gorra Star Wars color negro y blanco'

@@ -14,14 +14,6 @@ html , body , #root {
 }
 
 
-
-h3{
-  text-align: center;
-  margin-top: 5px;
-  color: blue;
-}
-
-
 .footer {
   height: 50px;
   background: #92a4df;
