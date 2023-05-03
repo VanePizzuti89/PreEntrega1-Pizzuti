@@ -1,6 +1,6 @@
 import './Item.css'
 
-const Item = ({id, name, price, img, stock, description}) => {
+const Item = ({id, name, price, img, stock}) => {
 
     return (
         <article className='CardItem'>
@@ -17,7 +17,7 @@ const Item = ({id, name, price, img, stock, description}) => {
                 <p className='Info'>Stock disponible: {stock}</p>
             </section>
             <footer className='ItemFooter'>
-                <button className='Option'>Ver detalle</button>
+                <Link to={`/item/${id}`} className='Option'>Ver detalle</Link>
             </footer>
         </article>
     )

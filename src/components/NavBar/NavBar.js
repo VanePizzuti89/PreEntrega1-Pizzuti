@@ -1,26 +1,25 @@
 import "./NavBar.css"
-import { NavLink } from "react-router-dom"
 import CartWidget from "../CartWidget/CartWidget"
+import { NavLink , Link } from "react-router-dom"
 
 
-const Header = () => {
+const NavBar = () => {
     return (
-        <header className="header">
-            <NavLink to="/">
-            <h1 className="header__title">Modern Style</h1>
-            </NavLink>
+        <nav className="NavBar">
+            <Link to="/">
+            <h1 className="nav__title">Modern Style</h1>
+            </Link>
             
-            <nav className="header__nav">
-            <NavLink to="/category/1" className="header__link link">Remeras</NavLink>
-            <NavLink to="/category/2" className="header__link link">Tazas</NavLink>
-            <NavLink to="/category/3" className="header__link link">Gorras</NavLink>
-            <NavLink to="/cart" className="header__link link"><CartWidget/></NavLink>
+            <div className="categories">
+            <NavLink to="/category/remeras" className="nav__link link">Remeras</NavLink>
+            <NavLink to="/category/tazas" className="nav__link link">Tazas</NavLink>
+            <NavLink to="/category/gorras" className="nav__link link">Gorras</NavLink>
+            <NavLink to="/cart" className="nav__link link"><CartWidget/></NavLink>
                 
-            </nav>
-            
-            
+            </div>
+          
            
-        </header>
+        </nav>
     )
 }
-export default Header
+export default NavBar

@@ -1,8 +1,8 @@
-.header__title{
+.nav__title{
     font-size: 30px;
 }
 
-.header__nav{
+.categories{
     display: flex;
     justify-content: space-around;
     margin-left: 500px;
@@ -11,7 +11,7 @@
 
 
 
-  .header__link link {
+  .nav__link link {
     margin-left: 500px;
     font-size: 20px;
 
