@@ -1,12 +1,13 @@
 import './Item.css'
 
-const Item = ({id, name, price, img, stock}) => {
+const Item = ({id, name, price, img, stock, description}) => {
 
     return (
         <article className='CardItem'>
             <header className='Header'>
-                <h2 className='ItemHeader'>{name}</h2>
-    
+                
+                <h2 className='ItemHeader'> {name}</h2>
+                <p className='ItemHeader'>Id: {id} </p>
             </header>
             <picture>
                 <img src={img} alt={name} className='ItemImg'/>
