@@ -3,9 +3,9 @@ import './CartWidget.css'
 
 const CartWidget = () => {
     return (
-        <div className="carri-number">
+        <div className="carrito-style">
             <img className="img-carrito" src="/images/carrito.png" alt="carrito-widget"></img>
-             0
+            <p className='carri-number'>0</p> 
  
         </div>  
     )

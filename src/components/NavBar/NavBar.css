@@ -6,11 +6,9 @@
 .categories{
     display: flex;
     justify-content: space-around;
-    margin-left: 500px;
+    margin-left: 300px;
     font-size: 20px;
+    padding-left: 10px;
 }
 
-  .nav__link link {
-    padding-left: 10px;
-
-  }
+  

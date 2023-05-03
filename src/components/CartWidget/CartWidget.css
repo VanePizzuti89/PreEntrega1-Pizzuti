@@ -1,13 +1,13 @@
-.carri-number{
-    margin-left: 320px;
-    margin-top: 7px;
-  }
+.carrito-style{
+  display: flex;
+}
+
   
   .img-carrito {
     height: 20px;
     width: 20px;
-    margin-left: 300px;
-    margin-top: 5px;
+    margin-left: 250px;
+    margin-top: 2px;
   }
 
   
