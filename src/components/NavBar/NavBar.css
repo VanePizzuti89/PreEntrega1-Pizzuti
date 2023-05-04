@@ -5,6 +5,8 @@
 .nav__title{
     font-size: 30px;
     margin-top: 5px;
+    margin-left: 2px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .categories{
