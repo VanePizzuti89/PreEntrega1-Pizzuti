@@ -1,0 +1,29 @@
+.Counter{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.Controls{
+   
+    justify-content: center
+   
+}
+
+.Button{
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.add-carri{
+    margin-top: 65px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Number{
+    margin: 30px 15px;
+}

@@ -1,8 +1,10 @@
-h3{
+.Header{
     font-size: 18px;
+    margin-top: 5px;
 }
 
 .CardItem{
     margin-left: 10px;
+    margin-top: 3px;
 
 }
