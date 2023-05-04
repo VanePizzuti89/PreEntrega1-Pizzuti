@@ -1,7 +1,7 @@
 import './Item.css'
 import { Link } from "react-router-dom"
 
-const Item = ({id, name, price, img}) => {
+const Item = ({id, name, price, img, stock}) => {
 
     return (
         <article className='CardItem'>
@@ -11,7 +11,7 @@ const Item = ({id, name, price, img}) => {
             <picture>
                 <img src={img} alt={name} className='ItemImg'/>
             </picture>
-            
+            <p className='Info'>Stock: {stock}</p>
             <section>
                 <p className='Info'>Precio: ${price}</p>
             </section>
