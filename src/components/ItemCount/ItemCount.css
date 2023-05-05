@@ -1,12 +1,12 @@
 .Counter{
     display: flex;
     justify-content: center;
+    width: 20%;
    
 }
 
 .Controls{
-   
-    justify-content: center
+   width: 100%;
    
 }
 
@@ -14,20 +14,18 @@
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    margin: auto;
+   
     border: solid blue;
     border-radius: 4px;
     background-color: grey;
 }
 
 .add-carri{
-    margin-top: 65px;
-    margin-left: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+    
     border: solid blue;
     border-radius: 4px;
     background-color: grey;
+    width: 100%;
 }
 
 .Number{
