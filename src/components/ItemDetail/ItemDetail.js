@@ -3,8 +3,8 @@ import './ItemDetail.css'
 
 const ItemDetail = ({ name, img, category, price, description, stock}) => {
     return(
-        
-        <article className='CardItem'>
+        <div className='card-padre'>
+            <article className='CardItem'>
             <header className='Header'>
                 <h3 className='ItemHeader'>{name}</h3>
             </header>
@@ -21,7 +21,12 @@ const ItemDetail = ({ name, img, category, price, description, stock}) => {
         </section>
         
         </article>
+
+        </div>
+
+        
     )
 }
+
 
 export default ItemDetail
