@@ -12,7 +12,7 @@ const ItemDetail = ({ name, img, category, price, description, stock}) => {
         <picture>
             <img src={img} alt={name} className='ItemImg'/>
         </picture>
-        <section className='detalle-card'> 
+        <section className='detail-card'> 
             
             <p className='Info'><b>Categoria:</b> {category}</p>
             <p className='Info'><b>Descripción:</b> {description}</p>

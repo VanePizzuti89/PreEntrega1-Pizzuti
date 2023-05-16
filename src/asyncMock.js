@@ -30,30 +30,30 @@ const products = [
     {
         id: '4',
         name: 'Remera Nonpalidece',
-        price: 2000,
+        price: 2500,
         category: "remeras",
-        img: 'https://http2.mlstatic.com/D_NQ_NP_775187-MLA31128313558_062019-O.webp',
+        img: 'https://i.postimg.cc/9fbNY2PK/remera-nonpalidece.jpg',
         stock: 28,
-        description: 'Remera de la banda Nonpalidece, del disco llamado Activistas'
+        description: 'Remera de Nonpalidece, disco llamado Activistas'
 
     },
     {
         id: '5',
-        name: 'Taza Messi',
+        name: 'Taza River',
         price: 1800,
         category: "tazas",
-        img: 'https://i.postimg.cc/LXRBzmf0/taza-messi.jpg',
+        img: 'https://i.postimg.cc/Bvht98cg/taza-river.jpg',
         stock: 20,
-        description: 'Taza Que miras bobo?'
+        description: 'Taza del Club Atlético River Plate'
     },
     {
         id: '6',
-        name: 'Gorra Star Wars',
+        name: 'Taza Boca',
         price: 2000,
-        category: "gorras",
-        img: 'https://i.postimg.cc/VLTqKqnt/gorra-starwars.jpg',
+        category: "tazas",
+        img: 'https://i.postimg.cc/FFTk5BGv/taza-boca.jpg',
         stock: 25,
-        description: 'Gorra Star Wars color negro y blanco'
+        description: 'Taza del Club Atlético Boca Juniors'
     }
 
 ]
