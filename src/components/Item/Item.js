@@ -20,12 +20,8 @@ const Item = ({id, name, price, img, stock}) => {
                 <Link to={`/item/${id}`} className='Option'>Ver detalle</Link>
             </footer>
         </article>
-
         </div>
-        
-        
     )
-
 }
 
 export default Item
