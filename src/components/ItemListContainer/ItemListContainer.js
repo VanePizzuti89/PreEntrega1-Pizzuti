@@ -22,11 +22,11 @@ const ItemListContainer = ({greeting}) => {
 
         getDocs(collectionRef)
         .then(response => {
-            const productAdapted = response.docs.map(doc => {
+            const productsAdapted = response.docs.map(doc => {
                 const data = doc.data()
                 return { id: doc.id, ...data}
             })
-            setProducts(productAdapted)
+            setProducts(productsAdapted)
         })
         .catch(error => {
             console.error(error)
