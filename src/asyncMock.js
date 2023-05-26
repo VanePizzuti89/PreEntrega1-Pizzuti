@@ -2,16 +2,16 @@ const products = [
     {
         id: '1',
         name: 'Remera Capitán América',
-        price: 5500,
+        price: 5000,
         category: "remeras",
         img: 'https://i.postimg.cc/bwy88Gsg/reme-capamerica.png',
         stock: 15,
-        description: '100% algodón peinado. Talles desde S hasta XL.'
+        description: '100% algodón peinado. Talles desde S hasta XXL.'
     },
     {
         id: '2',
         name: 'Taza Messi',
-        price: 3000,
+        price: 3500,
         category: "tazas",
         img: 'https://i.postimg.cc/3RDhZM5j/taza-messi.jpg',
         stock: 11,
@@ -20,7 +20,7 @@ const products = [
     {
         id: '3',
         name: 'Gorra Star Wars',
-        price: 2600,
+        price: 3800,
         category: "gorras",
         img: 'https://i.postimg.cc/VLTqKqnt/gorra-starwars.jpg',
         stock: 18,
@@ -29,17 +29,17 @@ const products = [
     {
         id: '4',
         name: 'Remera Nonpalidece',
-        price: 5500,
+        price: 5000,
         category: "remeras",
         img: 'https://i.postimg.cc/9fbNY2PK/remera-nonpalidece.jpg',
-        stock: 28,
-        description: '100% algodón peinado. Talles desde S hasta XL.'
+        stock: 25,
+        description: '100% algodón peinado. Talles desde S hasta XXL.'
 
     },
     {
         id: '5',
         name: 'Taza River Plate',
-        price: 3000,
+        price: 3500,
         category: "tazas",
         img: 'https://i.postimg.cc/q7k59bDJ/taza-river.png',
         stock: 20,
@@ -48,7 +48,7 @@ const products = [
     {
         id: '6',
         name: 'Gorra Patricio Rey',
-        price: 2600,
+        price: 3800,
         category: "gorras",
         img: 'https://i.postimg.cc/90Qzrxf8/gorra-prey.png',
         stock: 13,
@@ -57,25 +57,25 @@ const products = [
     {
         id: '7',
         name: 'Remera Dragon Ball Z',
-        price: 5500,
+        price: 5000,
         category: "remeras",
         img: 'https://i.postimg.cc/9QQ1Jhfx/remera-dragonball.jpg',
         stock: 16,
-        description: '100% algodón peinado. Talles desde S hasta XL.'
+        description: '100% algodón peinado. Talles desde S hasta XXL.'
     },
     {
         id: '8',
         name: 'Taza Starbucks',
-        price: 3000,
+        price: 3500,
         category: "tazas",
         img: 'https://i.postimg.cc/c4Hy5pjk/taza-sturbucks.png',
-        stock: 25,
+        stock: 21,
         description: 'Taza de cerámica, con capacidad de 350 cc.'
     },
     {
         id: '9',
         name: 'Gorra Adidas',
-        price: 2600,
+        price: 3800,
         category: "gorras",
         img: 'https://i.postimg.cc/C59YSJnf/gorra-adidas.png',
         stock: 12,
@@ -84,16 +84,16 @@ const products = [
     {
         id: '10',
         name: 'Remera The Rolling Stones',
-        price: 5500,
+        price: 5000,
         category: "remeras",
         img: 'https://i.postimg.cc/NjmRtQ2Y/remera-stones.jpg',
         stock: 13,
-        description: '100% algodón peinado. Talles desde S hasta XL.'
+        description: '100% algodón peinado. Talles desde S hasta XXL.'
     },
     {
         id: '11',
         name: 'Taza Homero',
-        price: 3000,
+        price: 3500,
         category: "tazas",
         img: 'https://i.postimg.cc/brP1dM7W/taza-homero.png',
         stock: 12,
@@ -102,7 +102,7 @@ const products = [
     {
         id: '12',
         name: 'Gorra Metallica',
-        price: 2600,
+        price: 3800,
         category: "gorras",
         img: 'https://i.postimg.cc/Rhx2hSVm/gorra-metallica.png',
         stock: 10,
