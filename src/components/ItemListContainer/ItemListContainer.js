@@ -34,7 +34,9 @@ const ItemListContainer = ({greeting}) => {
         .finally(() => {
             setLoading(false)
         })
-    
+    }
+    , [categoryId]
+    )
 
     return (
         <div>
@@ -42,7 +44,7 @@ const ItemListContainer = ({greeting}) => {
             <ItemList products={products}/>
         </div>
     )
-    })} 
+    } 
 
 
 export default ItemListContainer

@@ -28,14 +28,16 @@ const ItemDetailContainer = () => {
         .finally(() => {
             setLoading(false)    
         })
-    }, [itemId])
+
+     },
+        [itemId]
+    )
 
     return(
         <div className='ItemDetailContainer'>
             <ItemDetail {...product}/>
         </div>
     )    
-    
-})}
+    })}
 
-export  default ItemDetailContainer
+export default ItemDetailContainer
