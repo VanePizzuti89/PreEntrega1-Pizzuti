@@ -12,10 +12,14 @@
 .categories{
     display: flex;
     justify-content: space-around;
-    margin-left: 300px;
+    margin-left: 320px;
     margin-bottom: 8px;
     font-size: 20px;
     padding-left: 10px;
 }
 
+.logo_alm{
+    height: 70px;
+    width: 30%;
+}
   

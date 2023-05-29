@@ -7,7 +7,8 @@ const NavBar = () => {
     return (
         <nav className="NavBar">
             <Link to="/">
-            <h1 className="nav__title">Almitallia Sublimaciones</h1>
+            <img className="logo_alm" src="./images/logo-am.png" alt="logo"/>    
+            
             </Link>
             
             <div className="categories">
@@ -17,8 +18,7 @@ const NavBar = () => {
             <NavLink to="/cart" className="nav__link link"><CartWidget/></NavLink>
                 
             </div>
-          
-           
+            
         </nav>
     )
 }
