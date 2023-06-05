@@ -7,12 +7,14 @@ export const CartProvider = ({children}) => {
     console.log(cart)
 
     const [totalQuantity, setTotalQuantity] = useState(0)
+    cart.reduce((acumulador, productoActual) => acumulador + productoActual.quantity, 0)
 
 
     const addItem = (item, quantity) => {
         if(!isInCart(item.id)) {
             setCart(prev => [...prev, {...item, quantity}]) 
             setTotalQuantity ([totalQuantity + quantity]) 
+             
         } else{
             console.error('El producto ya fue agregado')
         }
