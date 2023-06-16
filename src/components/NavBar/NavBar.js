@@ -11,10 +11,20 @@ const NavBar = () => {
             </Link>
             
             <div className="categories">
-            <NavLink to="/category/remeras" className="nav__link link">REMERAS</NavLink>
-            <NavLink to="/category/tazas" className="nav__link link">TAZAS</NavLink>
-            <NavLink to="/category/gorras" className="nav__link link">GORRAS</NavLink>
-            <NavLink to="/cart" className="nav__link link"><CartWidget/></NavLink>
+
+                <div className="sti-cat">
+                <NavLink to="/category/remeras" className="nav__link link">REMERAS</NavLink>
+                </div>
+                <div className="sti-cat">
+                <NavLink to="/category/tazas" className="nav__link link">TAZAS</NavLink>
+                </div>
+                <div className="sti-cat">
+                <NavLink to="/category/gorras" className="nav__link link">GORRAS</NavLink>
+                </div>
+                <div className="sti-carri">
+                <NavLink to="/cart" className="nav__link link"><CartWidget/></NavLink>
+                </div>
+            
             </div>
             
         </nav>

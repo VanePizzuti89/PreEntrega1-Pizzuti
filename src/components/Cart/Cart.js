@@ -11,7 +11,7 @@ const Cart = () => {
         return (
             <div>
                 <h1>No hay productos en el carrito</h1>
-                <Link to='/' className='Option'>Productos</Link>
+                <Link to='/' className='Prod-sti'>Productos</Link>
             </div>
         )
     }
@@ -19,9 +19,14 @@ const Cart = () => {
     return (
         <div>
             {cart.map(p => <Item key={p.id} {...p}/>)}  
+            <div className='center-part'>
+                
             <h3>Total: ${total()}</h3>
             <button onClick={() => clearCart()} className='Button'>Limpiar carrito</button>
             <Link to='/checkout' className='Option'>Checkout</Link>
+
+            </div>
+            
         </div>
     )
 }
