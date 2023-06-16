@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto Serif', serif;
 }
 
 html , body , #root {
@@ -16,7 +17,7 @@ html , body , #root {
 
 .footer {
   height: 50px;
-  background: #92a4df;
+  background: black;
   color: #fff;
   display: flex;
   justify-content: center;

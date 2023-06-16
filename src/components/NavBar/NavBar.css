@@ -1,14 +1,14 @@
 .NavBar{
-    background-color: rgb(221, 214, 214);
+    background-color: hsla(0, 30%, 96%, 0.959);
     height: 80px;
     display: flex;
-    justify-content: space-around;
 }
 
 .nav__link {
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 10px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: 'Roboto Serif', serif;
+    color: black;
 }
 
 .categories{
@@ -20,7 +20,6 @@
 
 .logo_alm{
     height: 65px;
-    margin-left: auto;
-    
+    margin-left: 15px;
 }
   
