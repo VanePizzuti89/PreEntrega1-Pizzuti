@@ -22,9 +22,7 @@ const ItemDetailContainer = () => {
             const productAdapted= {id: response.id, ...data}
             setProduct(productAdapted)
         
-        .catch(error => {
-            console.error(error)
-        })    
+        
         .finally(() => {
             setLoading(false)    
         })
