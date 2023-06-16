@@ -17,8 +17,8 @@ html , body , #root {
 
 .footer {
   height: 50px;
-  background: black;
-  color: #fff;
+  background: hsla(0, 17%, 77%, 0.959);
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
