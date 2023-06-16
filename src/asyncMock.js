@@ -4,7 +4,7 @@ const products = [
         name: 'Remera Capitán América',
         price: 5000,
         category: "remeras",
-        img: 'https://i.postimg.cc/bwy88Gsg/reme-capamerica.png',
+        img: 'https://i.postimg.cc/QMLP7rX8/rem-capamerica.png',
         stock: 15,
         description: '100% algodón peinado. Talles desde S hasta XXL.'
     },

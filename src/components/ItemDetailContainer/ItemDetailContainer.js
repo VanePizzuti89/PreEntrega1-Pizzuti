@@ -17,19 +17,17 @@ const ItemDetailContainer = () => {
         const docRef = doc(db, 'products', itemId)
 
         getDoc(docRef)
+        
         .then(response => {
             const data = response.data()
             const productAdapted= {id: response.id, ...data}
             setProduct(productAdapted)
-        
-        
-        .finally(() => {
-            setLoading(false)    
-        })
-
-     },
-        [itemId]
-    )})
+     })
+     .finally(() => {
+        setLoading(false)    
+    })
+    
+    },[itemId])
 
     return(
         <div className='ItemDetailContainer'>
