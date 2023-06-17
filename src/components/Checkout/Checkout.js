@@ -3,6 +3,7 @@ import { CartContext} from '../../context/CartContext'
 import { getDocs, collection, query, where, writeBatch, documentId, addDoc, Timestamp } from 'firebase/firestore'
 import { db } from "../../services/firebase/firebaseConfig"
 import CheckoutForm from '../CheckoutForm/CheckoutForm'
+import './Checkout.css'
 
 
 const Checkout = () => {
